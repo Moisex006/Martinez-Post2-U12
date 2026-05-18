@@ -1,5 +1,5 @@
 package com.empresa.pedidos_integrado.dominio;
-
+import org.springframework.web.bind.annotation.RestController;
 
 public class Pedido {
 
