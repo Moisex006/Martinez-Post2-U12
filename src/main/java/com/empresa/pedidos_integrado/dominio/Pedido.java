@@ -1,8 +1,8 @@
 package com.empresa.pedidos_integrado.dominio;
-import org.springframework.web.bind.annotation.RestController;
-
+import com.empresa.pedidos_integrado.infraestructura.persistencia.RepositorioPedidosJpa;
 public class Pedido {
 
+    private RepositorioPedidosJpa repo;
     private Long id;
     private Double subtotal;
     private Double costo;
