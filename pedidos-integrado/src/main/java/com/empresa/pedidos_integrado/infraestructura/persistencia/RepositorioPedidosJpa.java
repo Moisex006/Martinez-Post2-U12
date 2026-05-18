@@ -1,5 +1,5 @@
 package com.empresa.pedidos_integrado.infraestructura.persistencia;
-
+import com.empresa.pedidos_integrado.infraestructura.persistencia.RepositorioPedidosJpa;
 import com.empresa.pedidos_integrado.dominio.Pedido;
 import com.empresa.pedidos_integrado.dominio.puertos.RepositorioPedido;
 import org.springframework.stereotype.Repository;
