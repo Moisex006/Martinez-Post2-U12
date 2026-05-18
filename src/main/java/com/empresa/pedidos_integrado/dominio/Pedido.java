@@ -1,8 +1,16 @@
 package com.empresa.pedidos_integrado.dominio;
-import com.empresa.pedidos_integrado.infraestructura.persistencia.RepositorioPedidosJpa;
+
+import com.empresa.pedidos_integrado.adaptadores.rest.PedidoController;
+import org.springframework.web.bind.annotation.RestController;
+
 public class Pedido {
 
-    private RepositorioPedidosJpa repo;
+    private PedidoController controller;
+
+    @RestController
+    class ViolacionInterna {
+    }
+
     private Long id;
     private Double subtotal;
     private Double costo;
